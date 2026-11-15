@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="color-scheme" content="light">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Rockwell | Real Estate, Construction & Interiors in Kerala and Tamil Nadu</title>
 <meta name="robots" content="noindex">
@@ -21,9 +22,7 @@
 </script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Figtree:wght@400;500;600&display=swap">
 <style>
-:root{--bg:#f4f6fa;--ink:#16203a;--mute:#56607a;--card:#fff;--line:#d9deea;--navy:#1d2d50;--gold:#d1ae3a;--gold-ink:#7a6112;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1426;--ink:#eaeffa;--mute:#a3adc4;--card:#162039;--line:#27345a;--gold-ink:#d1ae3a}}
-:root[data-theme="dark"]{--bg:#0d1426;--ink:#eaeffa;--mute:#a3adc4;--card:#162039;--line:#27345a;--gold-ink:#d1ae3a}
+:root{color-scheme:light;--bg:#f4f6fa;--ink:#16203a;--mute:#56607a;--card:#fff;--line:#d9deea;--navy:#1d2d50;--gold:#d1ae3a;--gold-ink:#7a6112;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 Figtree,system-ui,sans-serif}
@@ -39,8 +38,6 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:#f
 header .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
 .logo img{height:52px;width:auto}
 .logo .d{display:none}
-@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) header{background:#0d1426}:root:not([data-theme="light"]) .logo .l{display:none}:root:not([data-theme="light"]) .logo .d{display:block}}
-:root[data-theme="dark"] header{background:#0d1426}:root[data-theme="dark"] .logo .l{display:none}:root[data-theme="dark"] .logo .d{display:block}
 nav{display:flex;gap:22px;align-items:center;font-weight:500}
 nav a{text-decoration:none;font-size:.95rem}
 nav a:hover{color:var(--gold-ink)}
@@ -105,8 +102,6 @@ nav a:hover{color:var(--gold-ink)}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
 .chips li{padding:9px 18px;border:2px solid var(--navy);font-weight:600;border-radius:2px}
 .chips.next li{border:2px dashed var(--mute);color:var(--mute);font-weight:500}
-@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .chips li{border-color:var(--gold)}}
-:root[data-theme="dark"] .chips li{border-color:var(--gold)}
 @media(min-width:760px){.places{grid-template-columns:1fr 1fr}}
 .contact{background:var(--card)}
 .contact .grid{display:grid;gap:40px;grid-template-columns:minmax(0,1fr)}
